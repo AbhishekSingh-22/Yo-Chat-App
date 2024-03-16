@@ -1,0 +1,18 @@
+.chatArea{
+    height: 60vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.outgoingMessage{
+    text-align: right;
+    display: inline;
+    border: 2px solid blueviolet
+}
+
+.incomingMessage{
+    text-align: left;
+    border: 2px solid rgb(127, 86, 165)
+}
